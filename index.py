@@ -40,8 +40,7 @@ print(excel_data_df.columns.ravel())
 
 
 #Блок работы бота
-TOKEN = '1654985626:AAERGW-HUshvULF_P66TQf0MeMnzuB3FpCw'
-bot = telebot.TeleBot(TOKEN)
+TOKEN =(TOKEN)
 
 #Прикручиваем поиск
 @bot.message_handler(commands=['search_videos'])
